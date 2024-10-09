@@ -1,1 +1,20 @@
-
+Explanation of Each Exercise:
+1. Prime Numbers:
+o Function is_prime(number) checks if the number is prime by eliminating 
+numbers less than or equal to 1, divisible by 2 or 3, and uses a loop to check 
+divisibility from 5 up to the square root of the number.
+2. Product of Random Numbers:
+o Function product_of_random_numbers() generates two random numbers, asks 
+the user to input their product, and then checks if the user's answer matches the 
+correct product.
+3. Squares of Even Numbers:
+o Function squares_of_even_numbers(start, end) calculates and prints the 
+square of each even number within the specified range (100 to 200 in this case).
+4. Word Counter:
+o Function word_counter(text) uses regular expressions to extract words from 
+the text, counts their occurrences using Counter from the collections module, 
+and prints the word counts.
+5. Check for Palindrome:
+o Function is_palindrome(s) checks if a string reads the same forwards and 
+backwards after normalizing it to lowercase and removing non-alphanumeric 
+characters.
